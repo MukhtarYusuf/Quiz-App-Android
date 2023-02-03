@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFBFB"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="70dp"
+    android:paddingTop="60dp"
+    android:paddingRight="70dp"
+    android:paddingBottom="60dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".9"
+        android:src="@drawable/lambton_logo" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1"
+        android:drawablePadding="15dp"
+        android:gravity="center_vertical"
+        android:text="@string/name"
+        android:textSize="20sp"
+        app:drawableStartCompat="@drawable/name_logo" />
+
+    <TextView
+        android:id="@+id/testTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1"
+        android:drawablePadding="15dp"
+        android:gravity="center_vertical"
+        android:text="@string/name"
+        android:textSize="20sp"
+        app:drawableStartCompat="@drawable/test_logo" />
+
+
+    <TextView
+        android:id="@+id/questionsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1"
+        android:drawablePadding="15dp"
+        android:gravity="center_vertical"
+        android:text="@string/name"
+        android:textSize="20sp"
+        app:drawableStartCompat="@drawable/questions_logo" />
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1"
+        android:drawablePadding="15dp"
+        android:gravity="center_vertical"
+        android:text="@string/name"
+        android:textSize="20sp"
+        app:drawableStartCompat="@drawable/time_logo" />
+
+    <Button
+        android:id="@+id/startTestButton"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="30dp"
+        android:height="60dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/start_test"
+        android:textAllCaps="false"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/lambton_purple" />
+</LinearLayout>
